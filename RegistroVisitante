@@ -1,0 +1,24 @@
+public class RegistroVisitante {
+    public static void main(String[] args) {
+        String nombre = "Sara Connor";
+        byte edad = 30;
+        short numeroApartamento = 102;
+        long numeroIdentificacion = 123456789L;
+        int tiempoPermitido = 5; 
+        float temperaturaCorporal = 36.5f;
+        double peso = 70.5;
+        char genero = 'F';
+        boolean esPrimeraVisita = true;
+
+        System.out.println("Información del visitante:");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Número de apartamento a visitar: " + numeroApartamento);
+        System.out.println("Número de identificación: " + numeroIdentificacion);
+        System.out.println("Tiempo permitido para la visita: " + tiempoPermitido + " horas");
+        System.out.println("Temperatura corporal: " + temperaturaCorporal + " °C");
+        System.out.println("Peso: " + peso + " kg");
+        System.out.println("Género: " + genero);
+        System.out.println("¿Primera visita?: " + esPrimeraVisita);
+    }
+}
